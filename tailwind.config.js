@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         slateGray: "#6c757d",
+        brightRed: "#cb0b0a",
       },
     },
   },
