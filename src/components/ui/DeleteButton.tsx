@@ -4,7 +4,7 @@ import { TbTrash } from "react-icons/tb";
 const DeleteButton = () => {
   return (
     <div>
-      <TbTrash />
+      <TbTrash className="text-brightRed" />
     </div>
   );
 };
