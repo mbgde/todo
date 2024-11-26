@@ -11,14 +11,14 @@ const tasks: Task[] = [];
 const TaskList = () => {
   return (
     <div>
-      <div className="mt-1">
+      <div className="mb-2 mt-1">
         {tasks.length < 1 ? (
           <p className="text-slateGray">there are no tasks</p>
         ) : (
           <div>
             {tasks.map((task, index) => (
               <div
-                className="shadow-default mt-2 flex justify-between rounded-lg p-2"
+                className="mt-2 flex justify-between rounded-lg p-2 shadow-default"
                 key={index}
               >
                 <div>
