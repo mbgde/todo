@@ -7,9 +7,7 @@ interface BaseButtonProps {
 
 const BaseButton = ({ label, className = "" }: BaseButtonProps) => {
   return (
-    <button
-      className={`bg-royalBlue rounded-lg py-[1px] text-white ${className}`}
-    >
+    <button className={`bg-royalBlue rounded-lg text-white ${className}`}>
       {label}
     </button>
   );
